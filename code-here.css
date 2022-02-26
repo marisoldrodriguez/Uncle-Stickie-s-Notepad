@@ -1,0 +1,40 @@
+#classic {
+  padding: 1em 1em 0em 1em;
+  text-align: justify;
+  font-weight: bold;
+}
+
+#modern {
+  padding: 1em 1em 0em 1em;
+  text-align: center;
+  font-weight: bold;
+  background-color: #f5d329
+}
+
+#impact {
+  padding: 1em 1em 0em 1em;
+  text-align: center;
+  font-weight: bold;
+  border-style: double;
+  border-width: 18px;
+  background-color: #7AEB8D;
+}
+
+#elise {
+  padding: 1em 1em 0em 1em;
+  text-align: center;
+  font-family: cursive;
+
+}
+
+#one, #two  {
+
+}
+
+#gaudi {
+
+}
+
+
+
+
