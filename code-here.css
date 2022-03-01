@@ -1,40 +1,57 @@
 #classic {
-  padding: 1em 1em 0em 1em;
+  padding: 1em 1em;
   text-align: justify;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 #modern {
   padding: 1em 1em 0em 1em;
   text-align: center;
   font-weight: bold;
-  background-color: #f5d329
+  background-color: #f5d329;
 }
 
 #impact {
   padding: 1em 1em 0em 1em;
   text-align: center;
-  font-weight: bold;
-  border-style: double;
-  border-width: 18px;
-  background-color: #7AEB8D;
+  font-weight: bolder;
+  /* border-style: double; */
+  /* border-width: 18px; */
+  background-color: #7aeb8d;
+  border: double 18px;
 }
 
 #elise {
-  padding: 1em 1em 0em 1em;
+  padding: 1em 1em;
   text-align: center;
   font-family: cursive;
-
+  /* border-style: groove; */
+  /* border-width: 7px; */
+  /* border: groove 6px gray; */
+  border: rgb(246, 242, 242) 6px groove;
+  background-color: #fffaf0;
 }
 
-#one, #two  {
-
+#one,
+#two {
+  display: inline-block;
+  padding: 1em 1em;
+  text-align: center;
+  font-weight: bold;
+  background-color: #7efed4;
+  border: ridge 8px #34ced1;
+  margin-left: 1em;
+  margin-bottom: 6em;
 }
 
 #gaudi {
-
+  padding: 1em;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #fba07a;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 25%;
+  border-top-right-radius: 25%;
 }
-
-
-
-

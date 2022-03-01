@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 
 html {
   margin: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   background: #fefefedd;
   position: fixed;
   box-shadow: 4px 4px 4px black;
@@ -29,12 +29,14 @@ h1 {
   margin: 0;
 }
 
-h2 , h3 {
-  font-family: 'Yusei Magic', sans-serif;
+h2,
+h3 {
+  font-family: "Yusei Magic", sans-serif;
   margin-left: 1em;
 }
 
-section, form {
+section,
+form {
   min-height: 12.5em;
   background-color: hsla(150, 99%, 99%, 0.9);
   border: 2px groove grey;
@@ -44,11 +46,10 @@ section, form {
 
 section:first-of-type {
   margin-top: 0;
-  overflow-x:auto;
-
+  overflow-x: auto;
 }
 
-div[class^='notepad'] {
+div[class^="notepad"] {
   width: 49%;
   border: 1px solid black;
   height: 20em;
@@ -67,17 +68,14 @@ div[class^='notepad'] {
   box-sizing: border-box;
 }
 
-
 .notepad-details {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .notepad-details img {
   padding: 5em;
-
 }
 
 .notepad-details .doubles-img {
@@ -90,9 +88,8 @@ p {
 }
 
 footer {
-    font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
 }
-
 
 /*  override user default on scrool that can make stickies look weird */
 ::-webkit-scrollbar {
